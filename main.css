@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*Estilos para el navibar*/
+header{
+	background: rgba(0,0,0,0.8);
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+nav{
+	float: right;
+}
+
+nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+nav ul li{
+	float: right;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+nav ul li a{
+	display: block;
+	padding: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li:hover{
+	background: #E6B81D;
+}
+
+.navibar{
+	width: 25%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/*Estilos para el menu lateral*/
+.menu-lateral{
+	position: fixed;
+	width: 200px;
+	padding-top: 250px;
+}
+
+.menu-lateral a{
+	background: rgba(0,0,0,0.8);
+	color: black;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 20px;
+}
+
+.menu-lateral a:hover{
+	background: #E6B81D;
+}
+
+/*estilos para la imagen*/
+.imagen{
+	position: fixed;
+	width: 50%;
+	float:right;
+	margin-top: 90px;
+	margin-right: 350px;
+	margin-left: 380px;
+}
+img{
+	position: fixed;
+	float:right;
+	width: 600px;
+	height: auto;
+	margin: auto;
+
+}
+
+/*Estilos parrafo*/
+.parrafo{
+	position: fixed;
+	width: 50%;
+	float:right;
+	margin-top: 320px;
+	margin-left: 342px;
+}
+
+p{
+	text-align: center;
+	font-size: 20px;
+}
+
+/*Estilos de los botones*/
+.botones{
+	display: block;
+	position: fixed;
+	margin-top: 500px;
+	margin-left: 600px;
+}
+
+.enviar{
+	font-size: 16px;
+	margin-right: 40px;
+}
+
+.cancelar{
+	font-size: 16px;
+}
+
+/*Estilo del textbox*/
+.text{
+	padding-top: 550px;
+	margin-left: 600px;
+}
+
+.textbox{
+	height: 40px;
+	text-align: center;
+}
+/*Estilo del calendario*/
+.calendario{
+	margin-left: 200px;
+}
+
+/*Estilo del dropdown list*/
+.dropdownlist{
+	margin-top: -20px;
+	margin-left: 450px;
+}
+
+footer{
+	text-align: center;
+}
