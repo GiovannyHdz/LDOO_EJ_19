@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Registro</h1>
+        <form action="registroServlet" method="POST">
+            <label>Nombre:</label>
+            <input type="text" name="nombre"/><br><br>
+            
+            <label>Correo:</label>
+            <input type="text" name="correo"/><br><br>
+            
+            <label>Contraseña:</label>
+            <input type="text" name="password"/><br><br>
+            
+             <label>Fecha de nacimiento:</label>
+            <input type="date" name="FechaDeNacimiento"/><br><br>
+            
+             <input type="submit" name="enviar" id="enviar" value="enviar"/>
+        </form>
+    </body>
+</html>
