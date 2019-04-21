@@ -22,6 +22,5 @@ String var = request.getParameter("var");
             <input type="submit" value="Iniciar sesion"/>
         </form>
         
-        <a href="registro.jsp">Registrarse</a>
     </body>
 </html>
